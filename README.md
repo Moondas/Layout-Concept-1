@@ -1,5 +1,5 @@
 # Layout-Concept-1
-Simple layout responsive concept
+Simple responsive layout concept
 
 ## Instructions
 Resize verticaly or horizontaly your browser to see how this layout is works
