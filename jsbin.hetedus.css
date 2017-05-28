@@ -1,0 +1,99 @@
+/* Demonstrational layout style 
+
+   The base is a Mobil first concept */
+
+/* General Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p:first-letter {
+  padding-left: .8rem;
+}
+
+header, main, nav, footer, p {
+  background-color: #bada55;
+}
+
+header, nav, footer, p {
+  margin-bottom: .5rem;
+  padding: 6px;
+  box-shadow: 3px;
+}
+
+/* Header specific styles */
+
+header a {
+  float: right;
+  margin-right: 1rem;
+  line-height: 32px;
+}
+
+header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* Navigation styles*/
+
+nav ul li {
+  display: inline-block;
+}
+
+/* Styles for screen size */
+
+@media screen and (min-width: 768px) {
+  
+  body {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  main {
+    margin-right: 13rem;
+  }
+
+  nav {
+    float: right;
+    width: 12.5rem;
+  }
+  
+  nav ul li {
+    display: inherit;
+    padding: .3rem 1rem;
+  }
+  
+}
+
+/* Footer styles */
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+/* Sticky footer */
+
+@media screen and (min-width: 768px) {
+  
+  body {
+    height: 100vh;
+  }
+
+  footer {
+    position: sticky;
+    top: 100vh;
+  }
+  
+}
