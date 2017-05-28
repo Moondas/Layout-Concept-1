@@ -1,4 +1,4 @@
-# Layout-Concept-1
+# Layout Concept #1
 Simple responsive layout concept
 
 ## Instructions
